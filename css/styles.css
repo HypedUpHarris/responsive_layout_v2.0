@@ -1,0 +1,158 @@
+
+body {
+  width: inherit;
+  text-align: center;
+  font-family: Nunito, serif;
+}
+.main-header {
+  text-align: center;
+}
+.main-name {
+  color: dodgerblue;
+}
+li {
+  list-style-type: none;
+  margin-bottom: 30px;
+  font-weight: bold;
+  font-family: 'Dosis', sans-serif;;
+}
+header {
+  margin-bottom: 80px;
+}
+nav{
+  padding-top: 25px;
+}
+.profile {
+  margin-bottom: 100px;
+  color: grey;
+}
+p {
+  font-size: 1.2em;
+  color: grey;
+  padding: 5px 20px;
+}
+.profile-img {
+  width: 60%;
+}
+.portfolio img {
+  width: 90%;
+}
+.portfolio p {
+  margin-bottom: 30px;
+}
+.portfolio {
+  margin-bottom: 150px;
+}
+.skills {
+  margin-bottom: 100px;
+}
+.name {
+  float: left;
+  padding-left: 5px;
+}
+.back {
+  float: right;
+  padding-right: 5px;
+}
+.tablet {
+  display: none;
+}
+footer {
+  border-top: 1px solid lightgrey;
+}
+a:visited{
+  color: inherit;
+}
+a:link {
+  color: darkgray;
+}
+
+@media (min-width:768px) {
+
+  nav li{
+    display: inline-block;
+    margin: auto 20px;
+  }
+  .profile {
+    text-align: left;
+    font-size: 25px;
+    height: 350px;
+  }
+  .profile-img {
+    float: right;
+    width: 30%;
+  }
+  h2 {
+    margin-bottom: 50px;
+  }
+  .marketing,
+  .travel,
+  .photo {
+    float: left;
+    width: 50%;
+    overflow: hidden;
+  }
+  .search,
+  .map,
+  .calculator {
+    float:right;
+    width: 50%;
+    overflow: hidden;
+  }
+  footer {
+    padding: 15px 10px 30px;
+  }
+  .back {
+    display: none;
+  }
+  .tablet {
+    display: inline-block;
+    float: right;
+  }
+  footer li {
+    display: inline-block;
+    padding-right: 10px;
+  }
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
+
+@media (min-width:1024px) {
+
+  body {
+    width: 90%;
+    margin: 0 auto;
+  }
+  .main-name {
+    float: left;
+  }
+  nav {
+    float: right;
+  }
+  .profile-img {
+    width: 30%;
+    margin-left: 10px;
+  }
+  .portfolio img {
+    margin-top: 20px;
+  }
+  .col-1 {
+    float: left;
+    width: 33.33%;
+  }
+  .col-2 {
+    width: 33.33%;
+  }
+  .col-3 {
+    float: right;
+    width: 33.33%;
+  }
+  .clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+}
