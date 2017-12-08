@@ -2,7 +2,7 @@
 body {
   width: inherit;
   text-align: center;
-  font-family: Nunito, serif;
+  font-family: 'Nunito', serif;
 }
 .main-header {
   text-align: center;
@@ -10,17 +10,14 @@ body {
 .main-name {
   color: dodgerblue;
 }
-li {
+nav li{
   list-style-type: none;
   margin-bottom: 30px;
   font-weight: bold;
-  font-family: 'Dosis', sans-serif;;
+  font-family: 'Dosis', sans-serif;
 }
 header {
   margin-bottom: 80px;
-}
-nav{
-  padding-top: 25px;
 }
 .profile {
   margin-bottom: 100px;
@@ -62,14 +59,19 @@ footer {
 }
 a:visited{
   color: inherit;
+  text-decoration: none;
 }
 a:link {
   color: darkgray;
+  text-decoration: none;
 }
 
 @media (min-width:768px) {
 
-  nav li{
+  header {
+    margin-top: 50px;
+  }
+  nav li {
     display: inline-block;
     margin: auto 20px;
   }
